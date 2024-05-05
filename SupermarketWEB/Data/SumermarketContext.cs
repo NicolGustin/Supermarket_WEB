@@ -12,7 +12,7 @@ namespace SupermarketWEB.Data
         public DbSet<PayMode> PayModes { get; set; }
         public DbSet<Provider> Providers { get; set; }
         public DbSet<Purchase> Purchases { get; set; }
-
+        public DbSet<Sale> Sales { get; set; }
 
         /** protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
          {
