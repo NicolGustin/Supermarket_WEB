@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using SupermarketWEB.Data;
+using SupermarketWEB.Models;
 
 namespace SupermarketWEB.Pages.PayModes
 {
