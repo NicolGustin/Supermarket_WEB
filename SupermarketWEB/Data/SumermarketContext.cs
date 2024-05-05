@@ -13,6 +13,7 @@ namespace SupermarketWEB.Data
         public DbSet<Provider> Providers { get; set; }
         public DbSet<Purchase> Purchases { get; set; }
         public DbSet<Sale> Sales { get; set; }
+        public DbSet<Registro> Registros { get; set; }
 
         /** protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
          {
